@@ -1,0 +1,109 @@
+.board-container {
+    width: 80%;
+    margin: 0 auto;
+    padding : 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.board-title{
+    text-align: center;
+    font-size : 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.board-button{
+    text-align:right;
+}
+
+.board-button button{
+    padding : 10px 20px;
+    background-color: #3498db;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+    font-size: 14;
+}
+
+.board-button button:hover{
+    background-color: #2980b9;
+}
+
+.board-posts{
+    list-style:none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.board-post-item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding : 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.board-post-item a{
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.board-post-item a:hover{
+    text-decoration: underline;
+}
+
+.board-post-item span{
+    font-size: 12px;
+    color: #777;
+}  
+
+.board-posts-per-page{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.board-posts-per-page label{
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.board-posts-per-page select{
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.board-pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.board-pagination button{
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.board-pagination button.selected{
+    background-color: #3498db;
+    color:#fff;
+    border-color:#3498db
+}
+
+.board-pagination button:hover{
+    background-color: #2980b9;
+    color: #fff;
+}
